@@ -1,11 +1,12 @@
 '''
-Photocurrent analysis from ABF files. Designed to run in a Jupyter Notebook.
+Photocurrent analysis from ABF files.
+
+Originally run in Jupyter Notebook.
 
 Written by A. Prominski
 '''
 
-import pyabf
-import os
+import pyabf 
 import glob
 import numpy as np
 import matplotlib.pyplot as plt
